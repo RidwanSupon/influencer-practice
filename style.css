@@ -310,6 +310,11 @@ main{
         height: 300px;
     }
 }
+.see-more a{
+    flex-direction: column;
+    align-items: center;
+    margin-top:20px ;
+}
 /* ***********************
 For tab/ tablet
 ************************/
