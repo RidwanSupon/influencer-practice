@@ -5,6 +5,9 @@ a{
 body{
     margin: 0;
 }
+button,footer img{
+    cursor: pointer;
+}
 
 /* heading nav */
 header{
@@ -284,12 +287,19 @@ main{
         margin-top: 50px;
     }
 }
+/* ***********************
+For tab/ tablet
+************************/
 @media screen and (min-width:577px) and (max-width:982px) {
     main{
         margin:0px 25px;
     }
     .nav-bar{
         flex-direction: column;
+    }
+    .nav-button{
+        gap:70px;
+        align-items: center;
     }
     .banner{
         flex-direction: column-reverse;
@@ -315,9 +325,7 @@ main{
     align-items: center;
     margin-top:20px ;
 }
-/* ***********************
-For tab/ tablet
-************************/
+
 /* @media screen and (min-width:577px) and (max-width:987){
     
 } */
